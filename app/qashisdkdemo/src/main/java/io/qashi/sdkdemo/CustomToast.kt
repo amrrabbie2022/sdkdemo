@@ -1,28 +1,21 @@
 package io.qashi.sdkdemo
 
 import android.app.Dialog
+import android.content.Context
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
 import android.view.Window
 import android.widget.Button
 import android.widget.TextView
 
-class ToastActivity : AppCompatActivity() {
+class CustomToast {
 
-   lateinit var title:String
-   lateinit var msg:String
+    lateinit var title:String
+    lateinit var msg:String
+    lateinit var context: Context
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_toast)
-
-        showCustomDialog(title,msg)
-    }
-
-     fun showCustomDialog(title: String, msg: String) {
-        val dialog = Dialog(this)
+  public  fun showCustomDialog(context: Context,title: String, msg: String) {
+        val dialog = Dialog(context)
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE)
         dialog.setCancelable(true)
         dialog.setContentView(R.layout.custom_dialog_msg)
