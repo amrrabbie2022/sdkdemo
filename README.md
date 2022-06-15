@@ -29,6 +29,6 @@ Step 2. Add the dependency
         )
         startActivity(intent)
 	
-	and do not for get to add this code to your project mainfest
+	and do not forget to add this code to your project mainfest
 	
 	<activity android:name="io.qashi.sdkdemo.ToastActivity" />
