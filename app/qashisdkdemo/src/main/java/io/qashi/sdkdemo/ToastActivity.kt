@@ -9,14 +9,14 @@ import android.view.Window
 import android.widget.Button
 import android.widget.TextView
 
-class MainActivity : AppCompatActivity() {
+class ToastActivity : AppCompatActivity() {
 
     var title:String="Sdk demo"
     var msg:String="This is qashi sdk demo"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_toast)
 
         showCustomDialog(title,msg)
     }
