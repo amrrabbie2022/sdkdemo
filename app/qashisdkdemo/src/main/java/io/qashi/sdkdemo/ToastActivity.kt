@@ -11,8 +11,8 @@ import android.widget.TextView
 
 class ToastActivity : AppCompatActivity() {
 
-   lateinit var title:String
-   lateinit var msg:String
+    var title:String="sdk demo"
+    var msg:String="this is qashi sdk demo ..."
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
