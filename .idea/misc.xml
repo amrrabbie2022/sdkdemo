@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Amr/AndroidStudioProjects/sdkdemo/app/qashisdkdemo/src/main/res/layout/activity_toast.xml" value="0.1641337386018237" />
         <entry key="..\:/Users/Amr/AndroidStudioProjects/sdkdemo/app/qashisdkdemo/src/main/res/layout/custom_dialog_msg.xml" value="0.1859375" />
+        <entry key="..\:/Users/Amr/AndroidStudioProjects/sdkdemo/app/src/main/res/drawable-v24/ic_rectangle_dialog.xml" value="0.2759259259259259" />
       </map>
     </option>
   </component>

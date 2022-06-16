@@ -34,7 +34,7 @@ class ToastActivity : AppCompatActivity() {
 
         val btnmsg = dialog.findViewById(R.id.btnmsg) as Button
 
-        dialog.window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
+        //dialog.window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
 
         btnmsg.setOnClickListener {
             dialog.dismiss()

@@ -5,6 +5,7 @@
     <application>
         <activity
             android:name=".ToastActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:exported="true" />
     </application>
 
