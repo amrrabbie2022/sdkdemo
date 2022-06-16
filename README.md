@@ -22,13 +22,9 @@ Step 2. Add the dependency
 	
 	for using sdk to show custom toast use this code
 	
-	 val intent = Intent(Intent.ACTION_VIEW)
-        intent.component = ComponentName(
-            "Your project package name",
-            "io.qashi.sdkdemo.ToastActivity"
-        )
-        startActivity(intent)
+	 var c:CustomToast= CustomToast()
+                c.showCustomDialog(this,title,body)
 	
-	and do not forget to add this code to your project mainfest
+	and do not forget to add this code to your project activity
 	
-	<activity android:name="io.qashi.sdkdemo.ToastActivity" />
+	import io.qashi.sdkdemo.CustomToast
